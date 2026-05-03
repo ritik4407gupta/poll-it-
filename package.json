@@ -1,0 +1,27 @@
+{
+  "name": "poll-it",
+  "version": "1.0.0",
+  "description": "Poll-It · Interactive Election Education Assistant — vanilla HTML/CSS/JS with Locomotive Scroll, glassmorphism, voting booth simulator, mock blockchain ledger, and civic quiz.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "dev": "npx serve -l 3000 .",
+    "build": "echo 'Static site — no build step required.'",
+    "docker:build": "docker build -t poll-it .",
+    "docker:run": "docker run -p 8080:80 poll-it"
+  },
+  "keywords": [
+    "elections",
+    "civic-education",
+    "voting-simulator",
+    "blockchain",
+    "locomotive-scroll",
+    "glassmorphism",
+    "vanilla-js"
+  ],
+  "author": "Poll-It Civic Lab",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
